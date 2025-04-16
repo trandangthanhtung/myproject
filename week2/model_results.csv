@@ -1,0 +1,16 @@
+Cấu hình,Lần chạy,hidden_layers,units,activation,optimizer,learning_rate,batch_size,accuracy_percent
+Cấu hình 1,1,1,128,relu,adam,0.001,64,84.60000157356262
+Cấu hình 1,2,1,128,relu,adam,0.001,64,84.38000082969666
+Cấu hình 1,3,1,128,relu,adam,0.001,64,84.47999954223633
+Cấu hình 2,1,2,256,relu,adam,0.0008,64,84.14000272750854
+Cấu hình 2,2,2,256,relu,adam,0.0008,64,84.25999879837036
+Cấu hình 2,3,2,256,relu,adam,0.0008,64,84.25999879837036
+Cấu hình 3,1,2,512,relu,rmsprop,0.0005,64,55.01999855041504
+Cấu hình 3,2,2,512,relu,rmsprop,0.0005,64,50.120002031326294
+Cấu hình 3,3,2,512,relu,rmsprop,0.0005,64,53.92000079154968
+Cấu hình 4,1,3,512,relu,adam,0.0003,64,81.27999901771545
+Cấu hình 4,2,3,512,relu,adam,0.0003,64,84.32000279426575
+Cấu hình 4,3,3,512,relu,adam,0.0003,64,84.07999873161316
+Cấu hình 5,1,4,512,relu,adam,0.0001,128,73.9799976348877
+Cấu hình 5,2,4,512,relu,adam,0.0001,128,74.94000196456909
+Cấu hình 5,3,4,512,relu,adam,0.0001,128,71.84000015258789

@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "d:\Deep_learning\week5\week5.py", line 126, in <module>
+    run_with_config(lr, bs, opt, name)
+  File "d:\Deep_learning\week5\week5.py", line 112, in run_with_config
+    train_model(model, optimizer, criterion, train_loader, val_loader, device, config)
+  File "d:\Deep_learning\week5\week5.py", line 60, in train_model
+    val_acc = evaluate(model, val_loader, device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Deep_learning\week5\week5.py", line 75, in evaluate
+    outputs = model(images)
+              ^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Deep_learning\week5\week5.py", line 37, in forward
+    x = self.conv(x)
+        ^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\nn\modules\conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+KeyboardInterrupt

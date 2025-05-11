@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "d:\Deep_learning\week5\week5.py", line 126, in <module>
+    run_with_config(lr, bs, opt, name)
+  File "d:\Deep_learning\week5\week5.py", line 112, in run_with_config
+    train_model(model, optimizer, criterion, train_loader, val_loader, device, config)
+  File "d:\Deep_learning\week5\week5.py", line 52, in train_model
+    loss.backward()
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\DELL\miniconda3\envs\Python\Lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

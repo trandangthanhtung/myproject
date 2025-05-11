@@ -1,0 +1,16 @@
+{"time":"2025-05-09T19:05:15.9297012+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"D:\\Deep_learning\\wandb\\run-20250509_190514-mhxadel7\\logs\\debug-core.log"}
+{"time":"2025-05-09T19:05:16.8476107+07:00","level":"INFO","msg":"created new stream","id":"mhxadel7"}
+{"time":"2025-05-09T19:05:16.8481174+07:00","level":"INFO","msg":"stream: started","id":"mhxadel7"}
+{"time":"2025-05-09T19:05:16.8481913+07:00","level":"INFO","msg":"sender: started","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:05:16.8481913+07:00","level":"INFO","msg":"handler: started","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:05:16.8481913+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:05:17.1970295+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T19:19:07.7140825+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T19:19:07.7144747+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T19:19:08.7213291+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4384659},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4384659,"progress":"210B/210B"},{"desc":"uploading config.yaml","runtime_seconds":0.1663806,"progress":"695B/695B"}],"total_operations":3}}
+{"time":"2025-05-09T19:19:09.3631964+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T19:19:09.7512496+07:00","level":"INFO","msg":"stream: closing","id":"mhxadel7"}
+{"time":"2025-05-09T19:19:09.7512496+07:00","level":"INFO","msg":"handler: closed","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:19:09.7512496+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:19:09.7512496+07:00","level":"INFO","msg":"sender: closed","stream_id":"mhxadel7"}
+{"time":"2025-05-09T19:19:09.7512496+07:00","level":"INFO","msg":"stream: closed","id":"mhxadel7"}

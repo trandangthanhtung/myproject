@@ -1,0 +1,8 @@
+{"time":"2025-05-10T00:02:58.3943763+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"D:\\Deep_learning\\wandb\\run-20250510_000258-8jc6wfyw\\logs\\debug-core.log"}
+{"time":"2025-05-10T00:03:00.0556815+07:00","level":"INFO","msg":"created new stream","id":"8jc6wfyw"}
+{"time":"2025-05-10T00:03:00.0556815+07:00","level":"INFO","msg":"stream: started","id":"8jc6wfyw"}
+{"time":"2025-05-10T00:03:00.0561855+07:00","level":"INFO","msg":"handler: started","stream_id":"8jc6wfyw"}
+{"time":"2025-05-10T00:03:00.0562427+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"8jc6wfyw"}
+{"time":"2025-05-10T00:03:00.0562427+07:00","level":"INFO","msg":"sender: started","stream_id":"8jc6wfyw"}
+{"time":"2025-05-10T00:03:00.8750004+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T00:07:01.894877+07:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/tthanh2907-s/cifar10-cnn/8jc6wfyw/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

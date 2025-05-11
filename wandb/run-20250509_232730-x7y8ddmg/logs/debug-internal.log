@@ -1,0 +1,17 @@
+{"time":"2025-05-09T23:27:30.4136833+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"D:\\Deep_learning\\wandb\\run-20250509_232730-x7y8ddmg\\logs\\debug-core.log"}
+{"time":"2025-05-09T23:27:32.2596244+07:00","level":"INFO","msg":"created new stream","id":"x7y8ddmg"}
+{"time":"2025-05-09T23:27:32.2597487+07:00","level":"INFO","msg":"stream: started","id":"x7y8ddmg"}
+{"time":"2025-05-09T23:27:32.2597487+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:27:32.2597487+07:00","level":"INFO","msg":"handler: started","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:27:32.2597487+07:00","level":"INFO","msg":"sender: started","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:27:32.6185108+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T23:34:04.0834895+07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tthanh2907-s/cifar10-cnn-basic/x7y8ddmg/file_stream\": http2: client conn could not be established"}
+{"time":"2025-05-09T23:42:38.1587375+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T23:42:38.1587375+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T23:42:39.1752789+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4519336,"progress":"19B/19B"},{"desc":"uploading config.yaml","runtime_seconds":0.2157746,"progress":"625B/625B"}],"total_operations":2}}
+{"time":"2025-05-09T23:42:39.7854871+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T23:42:40.4209733+07:00","level":"INFO","msg":"stream: closing","id":"x7y8ddmg"}
+{"time":"2025-05-09T23:42:40.4209733+07:00","level":"INFO","msg":"sender: closed","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:42:40.4209733+07:00","level":"INFO","msg":"handler: closed","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:42:40.4209733+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x7y8ddmg"}
+{"time":"2025-05-09T23:42:40.4214849+07:00","level":"INFO","msg":"stream: closed","id":"x7y8ddmg"}

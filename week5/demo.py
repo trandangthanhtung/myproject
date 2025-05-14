@@ -3,7 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # Load model đã huấn luyện
-model = YOLO("runs/train/yolo_cifar10_cfg3/weights/best.pt")
+model = YOLO("runs/train/yolo_cifar10_cfg2/weights/best.pt")
 
 def detect_objects(image, conf=0.25):
     # Chạy suy luận
